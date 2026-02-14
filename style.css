@@ -1,0 +1,214 @@
+body {
+	width:500px;
+	height: 650px!important;
+	background-color: #777!important;
+}
+.tiptop {
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	padding: 5px;
+	font: 12px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	background: #222;
+	border: 2px solid #379abe
+}
+.chem, .add {
+	display:inline-block;
+	background:#379ABE;
+	text-decoration:none;
+	color:#fff;
+	font-size:12px;
+	width:145px;
+	margin:1px;
+	padding:4px 0 4px 5px;
+}
+
+.group {
+	width:145px;
+	display:inline-block;
+	background:#8487FF;
+	padding-left:5px;
+	margin:1px;
+}
+
+.group .delete {
+	padding:4px 0 4px 8px;
+}
+
+.group a {
+	text-decoration:none;
+	color:#fff;
+	display:inline-block;
+	padding:4px 0;
+}
+
+.group_name {
+	width:116px;
+}
+
+.add {
+	background:#8487FF;
+}
+
+.chem:hover {
+	background:#6BC7E8;
+}
+
+.card {
+	background:#777;
+	width:50%;
+	text-transform: uppercase;
+	text-decoration:none;
+	color:#fff;
+	display:inline-block;
+	font-weight:bold;
+	padding:4px 5px;
+	margin-bottom:15px;
+}
+
+.card:hover {
+	background:#999;
+}
+
+.label,tr td,tr th {
+	font-size:12px;
+	padding:4px 5px;
+}
+
+tr,.label {
+	background:#21272C;
+}
+
+.label a {
+	text-decoration:none;
+	color:#fff;
+}
+
+.right {
+	float:right;
+}
+
+.chems i,
+.head i,
+.card i,
+.label i {
+	padding: 0 5px 0 1px;
+	width: 10px;
+	text-align: center;
+	display: inline-block;
+}
+.chems {padding-left: 4px}
+.head,.new, .chems {margin-top:15px}
+
+.head {
+	background: #379ABE;
+	font-size: 12px;
+	text-transform: capitalize;
+	font-weight: bold;
+	border: none;
+	padding: 4px 5px 4px 5px;
+}
+.butt {
+	background: #2c7b98;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 0 5px 0 5px;
+	margin-left: 5px;
+	display: inline-block;
+}
+.nobg {
+    background: none;
+}
+.new .butt {background: #6669c5}
+.butt:hover {color: #6BC7E8}
+
+.full {
+	background:#BE3737;
+}
+
+.grp .chem,.new,.new {
+	background:#8487ff;
+}
+
+.grp a:hover,.group:hover,.add:hover {
+	background:#a0a2ff;
+}
+
+/*table syle*/
+
+tbody td:nth-child(2) {
+	background: #2a3138;
+}
+
+tbody tr td {
+	border-bottom: 1px solid #3e464e;
+	border-left: 1px solid #3e464e;
+	padding: 0 0 0 5px;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+	font-family: 'Inconsolata', monospace;
+}
+
+td.adjust a {
+	color: #718394;
+	display: inline-block;
+	text-decoration: none;
+	width: 28px;
+	text-align: center;
+	font-size: 10.5px;
+	font-weight: bold;
+	border-left: 1px solid #363f48;
+	text-transform: uppercase;
+	padding: 2px 3.5px;
+	box-sizing: border-box;
+}
+
+td.adjust a:first-child {
+	border: none;
+}
+
+.remove {
+	width: 108px;
+}
+
+.units {
+	width: 55px;
+}
+
+.adjust {
+	border-bottom: 1px solid #3e464e;
+	border-left: 1px solid #3e464e;
+	padding: 0;
+}
+
+th {
+	display: none;
+}
+
+tfoot tr td {
+	font-variant: small-caps;
+	text-transform: lowercase;
+	font-size: 10px;
+	padding: 2px 0 2px 5px;
+}
+
+tfoot tr {
+	background: none;
+}
+
+td:first-child {
+	text-align: right;
+	padding-right: 5px;
+}
+
+.ana {
+	text-decoration: none;
+	padding-right: 5px;
+	color: #718394;
+}
+
+.label a:hover,
+td.adjust a:hover {
+	color: #6BC7E8;
+	background: #313940;
+}
